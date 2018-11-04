@@ -41,7 +41,7 @@ router.get('/getPlaylist', function(req, res, next) {
 });
 
 router.get('/searchChannel', function(req, res, next) {
-    axios.get(apiSearchUrl+'&maxResults='+req.query.maxResults+"&channelId="+req.query.channelId+"q="+ req.query.textSearch+"type="+req.query.Type)
+    axios.get(apiSearchUrl+'&maxResults='+req.query.maxResults+"&q="+ req.query.textSearch+"&type="+req.query.Type)
         .then(response => {
             res.json( response.data );
         })
