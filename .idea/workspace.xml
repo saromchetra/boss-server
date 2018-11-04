@@ -17,8 +17,8 @@
       <file leaf-file-name="auth.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="149">
+              <caret line="43" column="123" selection-start-line="43" selection-start-column="123" selection-end-line="43" selection-end-column="123" />
             </state>
           </provider>
         </entry>
@@ -200,7 +200,7 @@
       <workItem from="1541300637149" duration="63000" />
       <workItem from="1541300800354" duration="2360000" />
       <workItem from="1541303373250" duration="2530000" />
-      <workItem from="1541305916237" duration="4042000" />
+      <workItem from="1541305916237" duration="5069000" />
     </task>
     <task id="LOCAL-00001" summary="neew">
       <created>1541305433106</created>
@@ -286,11 +286,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541310084219</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="short api code">
+      <created>1541310254598</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541310254598</updated>
+    </task>
+    <task id="LOCAL-00014" summary="short api code last v">
+      <created>1541310472411</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1541310472411</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11271000" />
+    <option name="totallyTimeSpent" value="12298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +392,9 @@
     <MESSAGE value="update api test4" />
     <MESSAGE value="playlistItems" />
     <MESSAGE value="playlistItems 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="playlistItems 2" />
+    <MESSAGE value="short api code" />
+    <MESSAGE value="short api code last v" />
+    <option name="LAST_COMMIT_MESSAGE" value="short api code last v" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,8 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="149">
+          <caret line="43" column="123" selection-start-line="43" selection-start-column="123" selection-end-line="43" selection-end-column="123" />
         </state>
       </provider>
     </entry>
