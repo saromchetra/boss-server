@@ -15,7 +15,19 @@ router.get('/getChannel', function(req, res, next) {
         .catch(error => {
             res.json( error );
             console.log(error);
-        });
+    });
+});
+
+
+router.get('/nextChannelPage', function(req, res, next) {
+    axios.get(apiUrl+'&maxResults='+req.query.maxResults+"&channelId="+req.query.channelId+"&pageToken="+req.query.nextPageToken)
+        .then(response => {
+            res.json( response.data );
+        })
+        .catch(error => {
+            res.json( error );
+            console.log(error);
+    });
 });
 
 // /* GET users listing. */

@@ -17,8 +17,8 @@
       <file leaf-file-name="auth.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="184">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -46,8 +46,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>AIzaSyBBKbVpsJQrP1HSN04zi7lX1uhBahZE0FM</find>
-      <find>channelId</find>
       <find>https://www.googleapis.com/youtube/v3/search?</find>
+      <find>req.query.channelId</find>
+      <find>channelId</find>
+      <find>maxResults</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,7 +200,7 @@
       <workItem from="1541300637149" duration="63000" />
       <workItem from="1541300800354" duration="2360000" />
       <workItem from="1541303373250" duration="2530000" />
-      <workItem from="1541305916237" duration="1739000" />
+      <workItem from="1541305916237" duration="2626000" />
     </task>
     <task id="LOCAL-00001" summary="neew">
       <created>1541305433106</created>
@@ -242,11 +244,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541307551417</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new api v test2">
+      <created>1541307673685</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541307673685</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new api v test3">
+      <created>1541307861947</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541307861947</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8968000" />
+    <option name="totallyTimeSpent" value="9855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
@@ -261,7 +277,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290735" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -319,7 +335,9 @@
     <MESSAGE value="new api 1" />
     <MESSAGE value="new api 2" />
     <MESSAGE value="new api v test" />
-    <option name="LAST_COMMIT_MESSAGE" value="new api v test" />
+    <MESSAGE value="new api v test2" />
+    <MESSAGE value="new api v test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="new api v test3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,8 +541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="184">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
