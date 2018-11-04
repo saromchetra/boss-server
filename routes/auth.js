@@ -6,7 +6,7 @@ const axios = require('axios');
 
 var key = "AIzaSyBBKbVpsJQrP1HSN04zi7lX1uhBahZE0FM";
 var apiUrl = "https://www.googleapis.com/youtube/v3/search?&order=date&part=snippet"+'&key='+key;
-var apiUrlPlayList = "https://www.googleapis.com/youtube/v3/search?part=id,snippet,contentDetails"+'&key='+key;
+var apiUrlPlayList = "https://www.googleapis.com/youtube/v3/playlistItems?part=id,snippet,contentDetails"+'&key='+key;
 
 router.get('/getChannel', function(req, res, next) {
     axios.get(apiUrl+'&maxResults='+req.query.maxResults+"&channelId="+req.query.channelId)
