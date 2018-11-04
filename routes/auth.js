@@ -9,6 +9,10 @@ var apiUrl = "https://www.googleapis.com/youtube/v3/search?&order=date&part=snip
 var apiUrlPlayList = "https://www.googleapis.com/youtube/v3/playlists?part=id,snippet,contentDetails"+'&key='+key;
 
 router.get('/getChannel', function(req, res, next) {
+    if (req.query.nextPageToken) {
+        apiUrl = apiUrl + "&pageToken="+req.query.nextPageToken;
+    }
+
     axios.get(apiUrl+'&maxResults='+req.query.maxResults+"&channelId="+req.query.channelId)
         .then(response => {
             res.json( response.data );
@@ -32,6 +36,10 @@ router.get('/getNextChannel', function(req, res, next) {
 });
 
 router.get('/getPlaylist', function(req, res, next) {
+    if (req.query.nextPageToken) {
+        apiUrlPlayList = apiUrlPlayList + "&pageToken="+req.query.nextPageToken;
+    }
+
     axios.get(apiUrlPlayList+'&maxResults='+req.query.maxResults+"&channelId="+req.query.channelId)
         .then(response => {
             res.json( response.data );
