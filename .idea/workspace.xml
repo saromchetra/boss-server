@@ -17,8 +17,8 @@
       <file leaf-file-name="auth.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            <state relative-caret-position="131">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -48,8 +48,8 @@
       <find>AIzaSyBBKbVpsJQrP1HSN04zi7lX1uhBahZE0FM</find>
       <find>https://www.googleapis.com/youtube/v3/search?</find>
       <find>req.query.channelId</find>
-      <find>channelId</find>
       <find>maxResults</find>
+      <find>channelId</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,7 +186,7 @@
       <workItem from="1541300800354" duration="2360000" />
       <workItem from="1541303373250" duration="2530000" />
       <workItem from="1541305916237" duration="5069000" />
-      <workItem from="1542241800484" duration="1373000" />
+      <workItem from="1542241800484" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="neew">
       <created>1541305433106</created>
@@ -286,11 +286,32 @@
       <option name="project" value="LOCAL" />
       <updated>1541310472411</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="short api code last v">
+      <created>1542243647059</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542243647060</updated>
+    </task>
+    <task id="LOCAL-00016" summary="short api code last v2">
+      <created>1542244052493</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1542244052493</updated>
+    </task>
+    <task id="LOCAL-00017" summary="short api code last v3">
+      <created>1542244081335</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1542244081335</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13671000" />
+    <option name="totallyTimeSpent" value="14633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,11 +335,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3290735" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290735" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -380,7 +401,9 @@
     <MESSAGE value="playlistItems 2" />
     <MESSAGE value="short api code" />
     <MESSAGE value="short api code last v" />
-    <option name="LAST_COMMIT_MESSAGE" value="short api code last v" />
+    <MESSAGE value="short api code last v2" />
+    <MESSAGE value="short api code last v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="short api code last v3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -605,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        <state relative-caret-position="131">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>

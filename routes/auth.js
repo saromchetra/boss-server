@@ -24,6 +24,17 @@ router.get('/getChannel', function(req, res, next) {
     });
 });
 
+router.get('/getNextChannel', function(req, res, next) {
+    axios.get(apiUrl+'&maxResults='+req.query.maxResults+"&channelId="+req.query.channelId+"&pageToken="+req.query.pageToken)
+        .then(response => {
+            res.json( response.data );
+        })
+        .catch(error => {
+            res.json( error );
+            console.log(error);
+        });
+});
+
 router.get('/getPlaylist', function(req, res, next) {
     if (req.query.nextPageToken) {
         apiUrlPlayList = apiUrlPlayList + "&pageToken="+req.query.nextPageToken;
