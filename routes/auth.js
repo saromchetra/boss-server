@@ -11,7 +11,7 @@ var apiSearchUrl = "https://www.googleapis.com/youtube/v3/search?part=id,snippet
 
 router.get('/getChannel', function(req, res, next) {
     if (req.query.nextPageToken) {
-        apiUrl = apiUrl + "&pageToken="+req.query.nextPageToken;
+        apiUrl = apiUrl + "&pageToken="+req.query.pageToken;
     }
 
     axios.get(apiUrl+'&maxResults='+req.query.maxResults+"&channelId="+req.query.channelId)
