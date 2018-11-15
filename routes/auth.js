@@ -10,7 +10,7 @@ var apiUrlPlayList = "https://www.googleapis.com/youtube/v3/playlists?part=id,sn
 var apiSearchUrl = "https://www.googleapis.com/youtube/v3/search?part=id,snippet"+'&key='+key;
 
 router.get('/getChannel', function(req, res, next) {
-    if (req.query.nextPageToken) {
+    if (req.query.channelId) {
         apiUrl = apiUrl + "&pageToken="+req.query.pageToken;
     }
 
